@@ -1,0 +1,72 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "1.0",
+  "name": "Hotel",
+  "desc": "Serviço inteligente de atendimento de hotéis",
+  "culture": "pt-br",
+  "intents": [
+    {
+      "name": "Despertador"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Reserva"
+    },
+    {
+      "name": "Saudacao"
+    },
+    {
+      "name": "ServicoQuarto"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "oi",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "olá",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "opa",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "nenhuma",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "fazer uma reserva",
+      "intent": "Reserva",
+      "entities": []
+    },
+    {
+      "text": "solicitar o serviço de despertador",
+      "intent": "Despertador",
+      "entities": []
+    },
+    {
+      "text": "solicitar o serviço de quarto",
+      "intent": "ServicoQuarto",
+      "entities": []
+    },
+    {
+      "text": "estou apenas te cumprimentando",
+      "intent": "Saudacao",
+      "entities": []
+    }
+  ]
+}
