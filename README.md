@@ -1,6 +1,9 @@
 # ActiveLearningBot
 Chatbot utilizando o conceito de Active Learning com o LUIS (Microsoft Cognitive Services)
 
+[![Build status](https://ci.appveyor.com/api/projects/status/j79vctcncf1xtsby?svg=true)](https://ci.appveyor.com/project/andreluizsecco/activelearningbot)
+[![Issues open](https://img.shields.io/github/issues-raw/andreluizsecco/activelearningbot.svg)](https://github.com/andreluizsecco/ChatBotSample/issues)
+
 ## Active Learning
 > "O aprendizado ativo é um caso especial de aprendizagem em máquina semi-supervisionada em que um algoritmo de aprendizagem é capaz de interagir interativamente o usuário (ou alguma outra fonte de informação) para obter as saídas desejadas em novos pontos de dados." (Wikipedia)
 
@@ -17,4 +20,4 @@ Para ver mais detalhes do projeto, assista essa live feita no Canal .NET: [https
 ## Getting started
 * Execute o script SQL da pasta **Database** para criar a base de dados e a tabela que irá armazenar as mensagens;
 * Importe o arquivo JSON da pasta **LuisApp** na sua conta no site [luis.ai](http://luis.ai);
-* Abra o projeto na pasta **src** e substitua a string **{ModelId}** pelo Id que foi criado quando criou seu app no portal do LUIS. Substitua também a string **{YourSubscriptionKey}** pela chave criada na sua conta do Azure (ou a chave temporária do LUIS) que possibilita usar e modificar seu LUIS App.
+* Abra o projeto na pasta **src** e substitua a string **{ModelId}** pelo Id que foi criado quando criou seu app no portal do LUIS. Substitua também as strings **{YourSubscriptionKey}** e **{SubscriptionKey}** pela chave criada na sua conta do Azure (ou a chave temporária do LUIS) que possibilita usar e modificar seu LUIS App.
