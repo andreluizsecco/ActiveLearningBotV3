@@ -20,7 +20,7 @@ namespace ActiveLearningBot
         public async Task Learn(string message, string intent)
         {
             IEnumerable<Training> trainingList;
-            var client = new LuisProgClient("{YourSubscriptionKey}");
+            var client = new LuisProgClient("{YourSubscriptionKey}", Location.WestUS);
             var app = await client.GetAppByNameAsync("Hotel");
             await client.AddExampleAsync(app.Id, app.Endpoints.Production.VersionId, new Example
             {
