@@ -49,8 +49,8 @@
     <Reference Include="Chronic, Version=0.3.2.0, Culture=neutral, PublicKeyToken=3bd1f1ef638b0d3c, processorArchitecture=MSIL">
       <HintPath>$(SolutionDir)\packages\Chronic.Signed.0.3.2\lib\net40\Chronic.dll</HintPath>
     </Reference>
-    <Reference Include="Cognitive.LUIS.Programmatic, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cognitive.LUIS.Programmatic.1.0.4\lib\netstandard2.0\Cognitive.LUIS.Programmatic.dll</HintPath>
+    <Reference Include="Cognitive.LUIS.Programmatic, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cognitive.LUIS.Programmatic.1.1.0\lib\netstandard2.0\Cognitive.LUIS.Programmatic.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bot.Builder, Version=3.12.2.4, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bot.Builder.3.12.2.4\lib\net46\Microsoft.Bot.Builder.dll</HintPath>
