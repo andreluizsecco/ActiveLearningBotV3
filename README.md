@@ -5,7 +5,7 @@ Chatbot utilizando o conceito de Active Learning com o LUIS (Microsoft Cognitive
 [![Issues open](https://img.shields.io/github/issues-raw/andreluizsecco/activelearningbot.svg)](https://github.com/andreluizsecco/ActiveLearningBot/issues)
 
 ## Active Learning
-> "O aprendizado ativo é um caso especial de aprendizagem em máquina semi-supervisionada em que um algoritmo de aprendizagem é capaz de interagir interativamente o usuário (ou alguma outra fonte de informação) para obter as saídas desejadas em novos pontos de dados." (Wikipedia)
+> "O aprendizado ativo é um caso especial de aprendizagem de máquina semi-supervisionada em que um algoritmo de aprendizagem é capaz de interagir com o usuário (ou alguma outra fonte de informação) para obter as saídas desejadas em novos pontos de dados." (Wikipedia)
 
 ## O Projeto
 O projeto é um chatbot simples para exemplificar o conceito de active learning aplicado a bots com o uso do [LUIS](http://luis.ai).
