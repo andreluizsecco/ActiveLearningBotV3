@@ -1,5 +1,5 @@
 # ActiveLearningBot
-Chatbot utilizando o conceito de Active Learning com o LUIS (Microsoft Cognitive Services)
+Chatbot utilizando o conceito de Active Learning com o Bot Framework v3 o LUIS (Microsoft Cognitive Services)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/j79vctcncf1xtsby?svg=true)](https://ci.appveyor.com/project/andreluizsecco/activelearningbot)
 [![Issues open](https://img.shields.io/github/issues-raw/andreluizsecco/activelearningbot.svg)](https://github.com/andreluizsecco/ActiveLearningBot/issues)
